@@ -11,7 +11,7 @@
     <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts,sysui-studio"/>
 
     <project path="frameworks/av" name="platform/frameworks/av" groups="pdk"/>
-    <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="grapheneos"/>
+    <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="monteos"/>
     <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk"/>
     <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk"/>
     <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk"/>
@@ -39,7 +39,7 @@
     <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="grapheneos"/>
     <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs"/>
     <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs"/>
-    <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="grapheneos"/>
+    <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="monteos"/>
     <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs"/>
     <project path="frameworks/opt/tv/tvsystem" name="platform/frameworks/opt/tv/tvsystem" groups="pdk-cw-fs,pdk-fs"/>
     <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs"/>

@@ -2,7 +2,7 @@
 <manifest>
     <remote name="monteos"
             fetch="https://github.com/MonteOS/"
-            revision="refs/heads/1"/>
+            revision="refs/heads/15-qpr2"/>
     <remote name="grapheneos"
             fetch="https://github.com/GrapheneOS/"
             revision="refs/heads/15-qpr2"/>
@@ -12,6 +12,7 @@
     <remote name="aosp"
             fetch="https://android.googlesource.com"
             review="https://android-review.googlesource.com/"/>
+
     <default revision="refs/tags/android-15.0.0_r23"
              remote="aosp"
              sync-j="4"/>
