@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <remote  name="monteos"
+           fetch="https://github.com/MonteOS/"
+           revision="refs/heads/1" />
   <remote  name="grapheneos"
            fetch="https://github.com/GrapheneOS/"
            revision="refs/heads/15-qpr2" />
