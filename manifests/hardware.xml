@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk"/>
+    <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan"/>
+    <project path="hardware/google/aemu" name="platform/hardware/google/aemu" groups="pdk"/>
+    <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk"/>
+    <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk"/>
+    <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk"/>
+    <project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen,pdk-gs-arm,pdk-gs-imgtec"/>
+    <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream" groups="pdk"/>
+    <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" groups="pdk-lassen,pdk-gs-arm,pdk-gs-imgtec"/>
+    <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm"/>
+    <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" groups="cloudripper,pdk-gs-arm"/>
+    <project path="hardware/google/graphics/zuma" name="platform/hardware/google/graphics/zuma" groups="ripcurrent,pdk-gs-arm"/>
+    <project path="hardware/google/graphics/zumapro" name="platform/hardware/google/graphics/zumapro" groups="ripcurrentpro"/>
+    <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio"/>
+    <project path="hardware/google/pixel" name="platform_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="grapheneos"/>
+    <project path="hardware/google/pixel-sepolicy" name="platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="grapheneos"/>
+    <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk,sysui-studio" remote="grapheneos"/>
+    <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk"/>
+    <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk"/>
+    <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk"/>
+    <project path="hardware/nxp/keymint" name="platform/hardware/nxp/keymint" groups="pdk"/>
+    <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk"/>
+    <project path="hardware/nxp/uwb" name="platform/hardware/nxp/uwb"/>
+    <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk"/>
+    <project path="hardware/nxp/weaver" name="platform/hardware/nxp/weaver" groups="pdk"/>
+    <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom"/>
+    <project path="hardware/ril" name="platform/hardware/ril" groups="pdk"/>
+    <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk"/>
+    <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk"/>
+    <project path="hardware/st/secure_element2" name="platform/hardware/st/secure_element2" groups="pdk"/>
+    <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk"/>
+    <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk"/>
+    <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk"/>
+</manifest>

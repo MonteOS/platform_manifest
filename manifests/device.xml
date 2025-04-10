@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="device/common" name="device_common" groups="pdk-cw-fs,pdk" remote="grapheneos"/>
+    <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk"/>
+    <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk"/>
+    <project path="device/generic/art" name="device/generic/art" groups="pdk"/>
+    <project path="device/generic/car" name="device/generic/car" groups="pdk"/>
+    <project path="device/generic/common" name="device/generic/common" groups="pdk"/>
+    <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="grapheneos"/>
+    <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk"/>
+    <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk"/>
+    <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk"/>
+    <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk"/>
+    <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk"/>
+    <project path="device/generic/trusty" name="device/generic/trusty" groups="pdk"/>
+    <project path="device/generic/x86" name="device/generic/x86" groups="pdk"/>
+    <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk"/>
+    <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk"/>
+    <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk"/>
+    <project path="device/google/common/etm" name="device/google/common/etm" groups="device" clone-depth="1"/>
+    <project path="device/google/gs201" name="device_google_gs201" groups="device,cloudripper,pdk-gs-arm" remote="grapheneos"/>
+    <project path="device/google/gs201-sepolicy" name="device_google_gs201-sepolicy" groups="device,cloudripper,pdk-gs-arm" remote="grapheneos"/>
+    <project path="device/google/gs-common" name="device_google_gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm,pdk-cw-tvc,pdk-gs-imgtec" remote="grapheneos"/>
+    <project path="device/google/pantah" name="device_google_pantah" groups="device,cloudripper,pdk-gs-arm" remote="grapheneos"/>
+    <project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" groups="device,cloudripper,pdk-gs-arm"/>
+    <project path="device/google/pantah-kernels/6.1" name="device_google_pantah-kernels_6.1" groups="device,cloudripper" clone-depth="1" remote="grapheneos"/>
+    <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk"/>
+    <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1"/>
+    <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1"/>
+    <project path="device/google/trout" name="device/google/trout" groups="device,pdk" clone-depth="1"/>
+    <project path="device/google_car" name="device/google_car" groups="pdk"/>
+    <project path="device/sample" name="device/sample" groups="pdk"/>
+</manifest>

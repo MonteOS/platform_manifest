@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="branding" name="branding" remote="grapheneos"/>
+    <project path="script" name="script" remote="grapheneos"/>
+    <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" clone-depth="1"/>
+    <project path="vendor/adevtool" name="adevtool" remote="grapheneos"/>
+    <project path="vendor/state" name="vendor_state" remote="grapheneos" clone-depth="1"/>
+</manifest>
