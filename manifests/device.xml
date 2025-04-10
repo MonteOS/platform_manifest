@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <include name="device/generic.xml"/>
-    <include name="device/google.xml"/>
-    <include name="device/pantah.xml"/>
+    <include name="manifests/device/generic.xml"/>
+    <include name="manifests/device/google.xml"/>
+    <include name="manifests/device/pantah.xml"/>
 </manifest>
