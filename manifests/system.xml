@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!--  MonteOS  -->
+    <project path="system/core" name="platform_system_core" groups="pdk" remote="monteos"/>
+    <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="monteos"/>
+    <!--  GrapheneOS  -->
+    <project path="system/extras" name="platform_system_extras" groups="pdk" remote="grapheneos"/>
+    <project path="system/librustutils" name="platform_system_librustutils" groups="pdk" remote="grapheneos"/>
+    <project path="system/logging" name="platform_system_logging" groups="pdk" remote="grapheneos"/>
+    <project path="system/netd" name="platform_system_netd" groups="pdk" remote="grapheneos"/>
+    <project path="system/vold" name="platform_system_vold" groups="pdk" remote="grapheneos"/>
+    <!--  AOSP  -->
     <project path="system/apex" name="platform/system/apex" groups="pdk"/>
     <project path="system/authgraph" name="platform/system/authgraph" groups="pdk"/>
     <project path="system/bpf" name="platform/system/bpf" groups="pdk"/>
@@ -7,9 +17,7 @@
     <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk"/>
     <project path="system/chre" name="platform/system/chre" groups="pdk"/>
     <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk"/>
-    <project path="system/core" name="platform_system_core" groups="pdk" remote="monteos"/>
     <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk"/>
-    <project path="system/extras" name="platform_system_extras" groups="pdk" remote="grapheneos"/>
     <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk"/>
     <project path="system/gsid" name="platform/system/gsid" groups="pdk"/>
     <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk,sysui-studio"/>
@@ -24,13 +32,11 @@
     <project path="system/libhidl" name="platform/system/libhidl" groups="pdk,sysui-studio"/>
     <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk"/>
     <project path="system/libprocinfo" name="platform/system/libprocinfo" groups="pdk"/>
-    <project path="system/librustutils" name="platform_system_librustutils" groups="pdk" remote="grapheneos"/>
     <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk"/>
     <project path="system/libufdt" name="platform/system/libufdt" groups="pdk"/>
     <project path="system/libvintf" name="platform/system/libvintf" groups="pdk"/>
     <project path="system/libziparchive" name="platform/system/libziparchive" groups="pdk"/>
     <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk"/>
-    <project path="system/logging" name="platform_system_logging" groups="pdk" remote="grapheneos"/>
     <project path="system/media" name="platform/system/media" groups="pdk"/>
     <project path="system/memory/libion" name="platform/system/memory/libion" groups="pdk"/>
     <project path="system/memory/libdmabufheap" name="platform/system/memory/libdmabufheap" groups="pdk"/>
@@ -39,12 +45,10 @@
     <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk"/>
     <project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk"/>
     <project path="system/memory/mmd" name="platform/system/memory/mmd" groups="pdk"/>
-    <project path="system/netd" name="platform_system_netd" groups="pdk" remote="grapheneos"/>
     <project path="system/nfc" name="platform/system/nfc" groups="pdk"/>
     <project path="system/nvram" name="platform/system/nvram" groups="pdk"/>
     <project path="system/secretkeeper" name="platform/system/secretkeeper" groups="pdk"/>
     <project path="system/security" name="platform/system/security" groups="pdk"/>
-    <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="monteos"/>
     <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
     <project path="system/teeui" name="platform/system/teeui" groups="pdk"/>
     <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk"/>
@@ -57,5 +61,4 @@
     <project path="system/unwinding" name="platform/system/unwinding" groups="pdk"/>
     <project path="system/update_engine" name="platform/system/update_engine" groups="pdk"/>
     <project path="system/usb_info_tools" name="platform/system/usb_info_tools" groups="pdk"/>
-    <project path="system/vold" name="platform_system_vold" groups="pdk" remote="grapheneos"/>
 </manifest>
