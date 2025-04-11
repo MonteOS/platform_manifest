@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="grapheneos"/>
+    <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs"/>
+</manifest>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs"/>
+</manifest>

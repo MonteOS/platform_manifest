@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs"/>
+    <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs"/>
+</manifest>
