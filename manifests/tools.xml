@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!--  GrapheneOS  -->
+    <project path="tools/metalava" name="platform_tools_metalava" groups="pdk,tools" remote="grapheneos"/>
+    <!--  AOSP  -->
     <project path="tools/aadevtools" name="platform/tools/aadevtools" groups="pdk"/>
     <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,projectarch,pdk,tradefed"/>
     <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools"/>
@@ -15,7 +18,6 @@
     <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools"/>
     <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools"/>
     <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed"/>
-    <project path="tools/metalava" name="platform_tools_metalava" groups="pdk,tools" remote="grapheneos"/>
     <project path="tools/netsim" name="platform/tools/netsim" groups="pdk"/>
     <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs,pdk,sysui-studio"/>
     <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk"/>

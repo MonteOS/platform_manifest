@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!--  GrapheneOS  -->
+    <project path="hardware/google/pixel" name="platform_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="grapheneos"/>
+    <project path="hardware/google/pixel-sepolicy" name="platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="grapheneos"/>
+    <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk,sysui-studio" remote="grapheneos"/>
+    <!--  AOSP  -->
     <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk"/>
     <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan"/>
     <project path="hardware/google/aemu" name="platform/hardware/google/aemu" groups="pdk"/>
@@ -14,9 +19,6 @@
     <project path="hardware/google/graphics/zuma" name="platform/hardware/google/graphics/zuma" groups="ripcurrent,pdk-gs-arm"/>
     <project path="hardware/google/graphics/zumapro" name="platform/hardware/google/graphics/zumapro" groups="ripcurrentpro"/>
     <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio"/>
-    <project path="hardware/google/pixel" name="platform_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="grapheneos"/>
-    <project path="hardware/google/pixel-sepolicy" name="platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="grapheneos"/>
-    <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk,sysui-studio" remote="grapheneos"/>
     <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk"/>
     <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk"/>
     <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk"/>
