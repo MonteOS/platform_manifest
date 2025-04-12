@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw"/>
+    <!--  GrapheneOS  -->
     <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="grapheneos"/>
+    <!--  AOSP  -->
+    <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw"/>
     <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk"/>
 </manifest>
