@@ -13,5 +13,4 @@
     <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1"/>
     <project path="device/google/trout" name="device/google/trout" groups="device,pdk" clone-depth="1"/>
     <project path="device/google_car" name="device/google_car" groups="pdk"/>
-    <project path="device/sample" name="device/sample" groups="pdk"/>
 </manifest>
