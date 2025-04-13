@@ -5,14 +5,9 @@
     <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="monteos"/>
     <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="monteos"/>
     <!--  GrapheneOS  -->
-    <project path="art" name="platform_art" groups="pdk" remote="grapheneos"/>
-    <project path="bionic" name="platform_bionic" groups="pdk" remote="grapheneos"/>
     <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="grapheneos"/>
     <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="grapheneos"/>
-    <project path="libcore" name="platform_libcore" groups="pdk" remote="grapheneos"/>
     <!--  AOSP  -->
-    <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs"/>
-    <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs"/>
     <project path="frameworks/av" name="platform/frameworks/av" groups="pdk"/>
     <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk"/>
     <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk"/>
@@ -44,8 +39,4 @@
     <project path="frameworks/proto_logging" name="platform/frameworks/proto_logging" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
     <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk"/>
     <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs"/>
-    <project path="libnativehelper" name="platform/libnativehelper" groups="pdk"/>
-    <project path="pdk" name="platform/pdk" groups="pdk"/>
-    <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts,sysui-studio"/>
-    <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs"/>
 </manifest>
