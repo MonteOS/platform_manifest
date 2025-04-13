@@ -7,8 +7,6 @@
     <!--  AOSP  -->
     <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs"/>
     <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs"/>
-    <project path="libnativehelper" name="platform/libnativehelper" groups="pdk"/>
     <project path="pdk" name="platform/pdk" groups="pdk"/>
-    <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts,sysui-studio"/>
     <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs"/>
 </manifest>

@@ -39,4 +39,5 @@
     <project path="frameworks/proto_logging" name="platform/frameworks/proto_logging" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
     <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk"/>
     <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs"/>
+    <project path="libnativehelper" name="platform/libnativehelper" groups="pdk"/>
 </manifest>
