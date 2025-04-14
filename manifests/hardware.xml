@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!--  MonteOS  -->
-    <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk,sysui-studio" remote="monteos"/>
     <!--  GrapheneOS  -->
     <project path="hardware/google/pixel" name="platform_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="grapheneos"/>
     <project path="hardware/google/pixel-sepolicy" name="platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="grapheneos"/>
+    <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk,sysui-studio" remote="grapheneos"/>
     <!--  AOSP  -->
     <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk"/>
     <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan"/>
